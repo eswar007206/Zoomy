@@ -11,7 +11,7 @@ const Navbar = () => {
     <header className="sticky top-0 z-50 bg-white border-b border-gray-100" style={{ height: "60px" }}>
       <div className="container mx-auto flex h-full items-center justify-between px-6 max-w-6xl">
         <Link to="/" className="flex items-center">
-          <span className="text-lg font-semibold tracking-widest text-gray-700 uppercase">LOGO</span>
+          <img src="/logo.png" alt="OTONA CIRCLE" className="h-10 w-auto" />
         </Link>
 
         {/* Desktop nav */}
